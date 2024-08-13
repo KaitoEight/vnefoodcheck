@@ -1,0 +1,189 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+
+@font-face {
+  font-family: 'Billabong';
+  src: url('../custom_font/Billabong.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Sofia Pro Regular';
+  src: url('../custom_font/Sofia_Pro_Regular_Az.otf') format('truetype');
+}
+
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Lato", sans-serif;
+}
+
+.home,
+.reports,
+.products {
+  padding: 50px;
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+  background-color: #F0F8FF;
+  color: #fff;
+}
+
+/* Navbar CSS */
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #F0F8FF;
+  height: 80px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.menu-bars {
+  margin-left: 2rem;
+  font-size: 2rem;
+  background: none;
+  color: #000;
+}
+
+.nav-menu {
+  background-color: #F0F8FF;
+  width: 250px;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  left: -100%;
+  transition: 850ms;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.nav-menu.active {
+  left: 0;
+  transition: 450ms;
+}
+
+.nav-text {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 8px 0px 8px 16px;
+  list-style: none;
+  height: 60px;
+}
+
+.nav-text a {
+  text-decoration: none;
+  color: #151414;
+  font-size: 18px;
+  width: 95%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: 0 16px;
+  border-radius: 4px;
+}
+
+.nav-text a:hover {
+  background-color: #000000;
+  color: #fff;
+}
+
+.nav-menu-items {
+  width: 100%;
+}
+
+.navbar-toggle {
+  background-color: #F0F8FF;
+  width: 85%;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  /* Modified */
+  align-items: center;
+}
+
+span {
+  margin-left: 16px;
+}
+
+.Name {
+  color: #000;
+  font-family: 'Billabong', cursive;
+  font-size: 2.5rem;
+  margin-left: 1rem;
+  text-align: center;
+}
+
+/* .footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #f8f8f8;
+  color: #333;
+  text-align: center;
+  padding: 20px;
+} */
+
+
+.footer {
+  color: #ffaf1b;
+  font-size: 15px;
+  font-weight: 400;
+  position: fixed;
+  width: 100%;
+  bottom: 0px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.auth-buttons {
+  position: relative;
+  left: 70%;
+}
+
+.login-button {
+  position: relative;
+  background-color: #ffaf1b;
+  color: white;
+  border: none;
+  padding: 10px 25px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-size: 10px;
+  margin-right: 25px;
+}
+
+.login-button,
+.register-button {
+  font-family: 'Sofia Pro Regular', cursive;
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+
+.logout-button {
+  position: relative;
+  background-color: #ff4d4d;
+  color: white;
+  border: none;
+  padding: 10px 25px;
+  border-radius: 5px;
+  left: 80%;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-size: 16px;
+}
+
+.logout-button:hover {
+  background-color: #ff1a1a;
+}

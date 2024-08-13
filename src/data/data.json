@@ -1,0 +1,57 @@
+[
+  {
+    "name": "Banh Mi",
+    "describe": "Loại bánh mì đặc trưng của Việt Nam, thường dùng để kẹp các loại nhân như pate, chả lụa, thịt nướng, rau sống.",
+    "ingredients": [
+        "Bột mì",
+        "Men nở",
+        "Đường",
+        "Muối",
+        "Sữa",
+        "Bơ"
+    ]
+  },
+  {
+    "name": "Phở",
+    "describe": "Một trong những món ăn truyền thống của Việt Nam, thường dùng vào bữa sáng hoặc bữa tối.",
+    "ingredients": [
+      "Bò",
+      "Gà",
+      "Bún",
+      "Hành",
+      "Gừng",
+      "Hành tây",
+      "Rau mùi",
+      "Rau húng"
+    ]
+  },
+  {
+    "name": "Bún Riêu",
+    "describe": "Một món ăn truyền thống của Việt Nam, thường dùng vào bữa trưa hoặc bữa tối.",
+    "ingredients": [
+      "Bún",
+      "Cua",
+      "Thịt băm",
+      "Rau sống",
+      "Rau sống",
+      "Rau sống"
+    ]
+  },
+  {
+    "name": "Bún Bò Huế",
+    "describe": "Một món ăn truyền thống của Việt Nam, thường dùng vào bữa trưa hoặc bữa tối.",
+    "ingredients": ["Bún", "Bò", "Hành", "Hành tây", "Rau sống", "Rau sống"]
+  },
+  {
+    "name": "Bánh Canh",
+    "describe": "Một món ăn truyền thống của Việt Nam, thường dùng vào bữa trưa hoặc bữa tối.",
+    "ingredients": [
+      "Bột mì",
+      "Tôm",
+      "Thịt băm",
+      "Rau sống",
+      "Rau sống",
+      "Rau sống"
+    ]
+  }
+]
